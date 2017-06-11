@@ -9,8 +9,7 @@
     "dev-build": "./node_modules/.bin/webpack -d --progress --colors",
     "watch-build": "./node_modules/.bin/webpack -d --watch --progress --colors",
     "dev-server": "./node_modules/.bin/webpack-dev-server --port 3000",
-    "lint": "./node_modules/.bin/eslint --ext .js,.jsx ./src",
-    "postinstall": "npm run build"
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx ./src"
   },
   "keywords": [
     "animated",
